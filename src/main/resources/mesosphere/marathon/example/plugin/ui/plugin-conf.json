@@ -1,6 +1,6 @@
 {
   "plugins": {
-    "example": {
+    "marathon-ui-example-plugin": {
       "plugin": "mesosphere.marathon.plugin.http.HttpRequestHandler",
       "implementation": "mesosphere.marathon.example.plugin.ui.HttpRequestHandler",
       "tags": ["ui", "example"],

@@ -1,0 +1,22 @@
+{
+  "name": "marathon-ui-example-plugin",
+  "version": "0.0.1",
+  "engines": {
+    "node": "5.4.1"
+  },
+  "description": "Marathon UI Example Plugin",
+  "keywords": [
+    "marathon",
+    "mesos",
+    "plugin",
+    "example"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mesosphere/marathon-ui-example-plugin.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}

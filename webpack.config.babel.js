@@ -29,6 +29,9 @@ export default  {
       }
     ]
   },
-  plugins: []
+  plugins: [],
+  resolve: {
+    extensions: ["", ".jsx", ".js"]
+  }
 };
 

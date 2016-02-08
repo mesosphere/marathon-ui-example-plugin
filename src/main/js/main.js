@@ -1,4 +1,4 @@
-import ExamplePluginComponent from "components/ExamplePluginComponent";
+import ExamplePluginComponent from "./components/ExamplePluginComponent";
 
 var {PluginHelper, PluginMountPoints} = global.MarathonUIPluginAPI;
 

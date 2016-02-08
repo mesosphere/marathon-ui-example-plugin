@@ -1,6 +1,6 @@
 import React from "react/addons";
 
-import ExamplePluginStore from "../src/main/js/stores/ExamplePluginStore";
+import ExamplePluginStore from "../stores/ExamplePluginStore";
 import ExamplePluginEvents from "../events/ExamplePluginEvents";
 
 var {PluginActions, PluginHelper} =

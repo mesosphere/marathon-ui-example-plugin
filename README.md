@@ -38,7 +38,7 @@ Running the following command will build your plugin and watch for file changes 
 
        npm run build -- --watch
 
-#### 5. Start your environment
+#### 4. Start your environment
 
 The following command will download, configure and start a basic Zookeeper, Mesos and Marathon setup for you.
 

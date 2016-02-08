@@ -1,8 +1,7 @@
 import {EventEmitter} from "events";
+import {PluginDispatcher, PluginEvents} from "marathon-ui-plugin-sdk";
 
 import ExamplePluginEvents from "../events/ExamplePluginEvents";
-
-var {PluginDispatcher, PluginEvents} = global.MarathonUIPluginAPI;
 
 var ExamplePluginStore = Object.assign({}, EventEmitter.prototype, {
   apps: []

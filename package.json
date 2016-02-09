@@ -17,7 +17,7 @@
     "url": "git://github.com/mesosphere/marathon-ui-example-plugin.git"
   },
   "dependencies": {
-    "marathon-ui-plugin-sdk": "https://github.com/mesosphere/marathon-ui-plugin-sdk/releases/download/v.0.0.1-feature-pull-3107-plugin-interface.1/marathon-ui-plugin-sdk-0.0.1.tgz"
+    "marathon-ui-plugin-sdk": "https://github.com/mesosphere/marathon-ui-plugin-sdk/releases/download/v.0.0.1-feature-pull-3107-plugin-interface.2/marathon-ui-plugin-sdk-0.0.1.tgz"
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",

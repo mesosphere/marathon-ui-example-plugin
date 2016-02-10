@@ -1,5 +1,6 @@
-import {PluginHelper, PluginMountPoints} from "marathon-ui-plugin-sdk";
 import ExamplePluginComponent from "./components/ExamplePluginComponent";
+
+const {PluginHelper, PluginMountPoints} = window.marathonPluginInterface;
 
 PluginHelper.registerMe();
 PluginHelper.injectComponent(ExamplePluginComponent,

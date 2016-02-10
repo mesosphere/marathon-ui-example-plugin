@@ -1,8 +1,8 @@
 import React from "react/addons";
-import {PluginActions, PluginHelper} from "marathon-ui-plugin-sdk";
-
 import ExamplePluginStore from "../stores/ExamplePluginStore";
 import ExamplePluginEvents from "../events/ExamplePluginEvents";
+
+const {PluginActions, PluginHelper} = window.marathonPluginInterface;
 
 var ExamplePluginComponent = React.createClass({
 

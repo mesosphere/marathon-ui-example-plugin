@@ -42,7 +42,7 @@ mesos-slave:
     - MESOS_DOCKER_STOP_TIMEOUT=60secs
     - MESOS_RESOURCES=cpus:4;mem:1280;disk:25600;ports(*):[12000-12999]
 marathon-service:
-  image: mesosphere/marathon-test:8cff9e7224ef
+  image: mesosphere/marathon-test:00f8aabe77c1
   expose:
     - "8080"
   links:

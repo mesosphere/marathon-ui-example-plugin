@@ -15,9 +15,9 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.12" % "provided"
 )
 
-lazy val build = taskKey[Unit]("Run npm build")
+lazy val buildUi = TaskKey[Unit]("build-ui","Build the UI by exec `npm run build`")
 
-build := {
+buildUi := {
   "npm run build" !
 }
 

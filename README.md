@@ -39,8 +39,8 @@ Before we can start the development environment, we need to initially build and 
 
 You could alternatively use sbt to build and pack the plugin:
 
-	sbt clean build pack
-       
+	sbt clean build-ui pack
+
 #### 4. Start your environment
 
 The following command will download, configure and start a basic Zookeeper, Mesos and Marathon setup for you. It will also proxy the plugin for you, to eliminate the need to restart Marathon after every change.
@@ -60,4 +60,4 @@ Running the following command will build your plugin and watch for file changes 
 You could user either of the following commands to build and pack the plugin:
 
 	npm run pack
-	sbt clean build pack
+	sbt clean build-ui pack

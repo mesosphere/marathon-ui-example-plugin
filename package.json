@@ -35,6 +35,6 @@
   "scripts": {
     "build": "webpack --progress --colors",
     "lint": "eslint src/**/*.js*",
-    "pack": "sbt clean build pack"
+    "pack": "sbt clean build-ui pack"
   }
 }

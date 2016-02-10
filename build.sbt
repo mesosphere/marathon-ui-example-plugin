@@ -15,5 +15,11 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-api" % "1.7.12" % "provided"
 )
 
+lazy val build = taskKey[Unit]("Run npm build")
+
+build := {
+  "npm run build" !
+}
+
 packAutoSettings
 packExcludeJars := Seq("scala-.*\\.jar")

@@ -1,4 +1,5 @@
 import path from "path";
+import {NormalModuleReplacementPlugin} from "webpack"
 import config from "./package.json";
 
 export default  {
@@ -29,7 +30,10 @@ export default  {
       }
     ]
   },
-  plugins: [],
+  plugins: [
+    new NormalModuleReplacementPlugin(/^(react|react\/addons)$/,
+      path.resolve(__dirname, "ReactWindowWebpackWrapper"))
+  ],
   resolve: {
     extensions: ["", ".jsx", ".js"]
   }

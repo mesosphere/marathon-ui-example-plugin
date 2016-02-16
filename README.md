@@ -7,7 +7,7 @@ Use at your own risk.
 
 ---
 
-### Prerequisite
+### Prerequisites
 
 Please make sure you've installed and properly configured the following software:
 
@@ -33,7 +33,7 @@ If you're not using something like [dnsdock](https://github.com/tonistiigi/dnsdo
 
 #### 3. Build and pack the plugin
 
-Before we can start the development environment, we need to initially build and pack the plugin to start the marathon with the correct plugin configuration. Use the following command to build and pack the plugin:
+Before we can start the development environment, we need to initially build and pack the plugin to start Marathon with with the correct plugin configuration. Use the following command to build and pack the plugin:
 
 	npm run pack
 

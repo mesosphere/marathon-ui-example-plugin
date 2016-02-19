@@ -11,11 +11,10 @@ resolvers += "Mesosphere Public Repo" at "http://downloads.mesosphere.io/maven"
 
 libraryDependencies ++= Seq(
   "mesosphere.marathon" %% "plugin-interface" % "0.16.0-SNAPSHOT" % "provided",
-  "log4j" % "log4j" % "1.2.17" % "provided",
-  "org.slf4j" % "slf4j-api" % "1.7.12" % "provided"
+  "ch.qos.logback" % "logback-classic" % "1.1.3" % "provided"
 )
 
-lazy val buildUi = TaskKey[Unit]("build-ui","Build the UI by exec `npm run build`")
+lazy val buildUi = TaskKey[Unit]("build-ui", "Build the UI by exec `npm run build`")
 
 buildUi := {
   "npm run build" !

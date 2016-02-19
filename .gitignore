@@ -1,0 +1,11 @@
+node_modules
+target
+
+src/main/resources/META-INF/resources/marathon-ui-example-plugin/
+
+.*.swp
+.DS_Store
+.svn
+*.iml
+.idea/*
+npm-debug.log

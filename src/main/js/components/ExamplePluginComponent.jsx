@@ -30,10 +30,10 @@ var ExamplePluginComponent = React.createClass({
   handleClick: function (e) {
     e.stopPropagation();
 
-    PluginHelper.callAction(PluginActions.DIALOG_ALERT, {
+    PluginHelper.callAction(PluginActions.DIALOG_ALERT, [{
       title: "Hello world",
       message: "Hi, Plugin speaking here."
-    });
+    }]);
   },
 
   render: function () {
